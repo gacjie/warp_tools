@@ -11,7 +11,14 @@
 - **目标平台**：Windows 10/11  
 - **架构模式**：MVC (Model-View-Controller)  
 
-## ✨ 功能特性
+## 🎨 演示图片   
+![demo]([https://github.com/username/reponame/blob/branch/image.jpg?raw=true](https://github.com/gacjie/warp_tools/blob/main/demo.png?raw=true))
+
+
+## 🚀 下载地址
+https://github.com/gacjie/warp_tools/releases
+
+## ✨ 功能特性   
 
 ### 📊 仪表盘 (Dashboard)
 - 显示当前 Warp 账户信息（邮箱、用户ID、令牌状态、过期时间）
