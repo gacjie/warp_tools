@@ -86,9 +86,9 @@ A: 支持 Windows 10/11 及以上版本。
 
 ## 🚀 联系方式
 
-- Telegram: [https://t.me/gacjie](https://t.me/gacjie)
+- qq群: [AI Code IDE Studio(611135619)](https://qm.qq.com/q/X34oYSLeog)
 - GitHub: [https://github.com/gacjie](https://github.com/gacjie)
-- 关注 Telegram 频道获取最新更新
+
 
 ## 🌟 致谢
 
