@@ -12,7 +12,7 @@
 - **架构模式**：MVC (Model-View-Controller)  
 
 ## 🎨 演示图片   
-![demo]([https://github.com/username/reponame/blob/branch/image.jpg?raw=true](https://github.com/gacjie/warp_tools/blob/main/demo.png?raw=true))
+![demo](https://github.com/username/reponame/blob/branch/image.jpg?raw=true)
 
 
 ## 🚀 下载地址
