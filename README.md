@@ -510,27 +510,6 @@ Default Rules:
 
 > **📝 注意**: 建议在配置同步期间关闭云端同步，避免配置被覆盖
 
-#### 6.6 批量同步工具
-
-**命令行工具**: `warp_config_sync.py`
-
-位于项目根目录，可独立运行用于批量同步。
-
-**使用方法**:
-```powershell
-# 同步第一个账户
-python warp_config_sync.py
-
-# 同步指定邮箱账户
-python warp_config_sync.py user@example.com
-```
-
-**功能特点**:
-- 📋 从数据库读取账户
-- 🔄 自动刷新令牌
-- ✨ 智能增量同步
-- 📊 详细进度输出
-
 ---
 
 ## 常见问题
