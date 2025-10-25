@@ -45,10 +45,6 @@
 
 ---
 
-## 🎨 演示图片   
-![demo](https://github.com/gacjie/warp_tools/blob/main/demo.png?raw=true)
----
-
 ## 安装说明
 
 ### 下载地址
@@ -76,7 +72,7 @@ https://github.com/gacjie/warp_tools/releases
 
 **访问路径**: 启动软件后默认显示
 
-<img src="https://via.placeholder.com/800x450/2C3E50/FFFFFF?text=Dashboard+Preview" alt="仪表盘预览">
+![demo](https://github.com/gacjie/warp_tools/blob/main/demo.png?raw=true)
 
 #### 功能说明
 
