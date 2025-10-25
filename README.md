@@ -126,10 +126,8 @@ https://github.com/gacjie/warp_tools/releases
 
 1. 点击 **➕ 添加账户** 按钮
 2. 填写以下信息：
-   - 邮箱地址（必填）
    - Refresh Token（必填）
-   - ID Token（可选）
-   - 套餐类型（可选）
+   
 3. 点击 **保存** 完成添加
 
 ##### 🔄 切换账户
@@ -215,7 +213,7 @@ https://github.com/gacjie/warp_tools/releases
 
 **回调 URL 格式**:
 ```
-https://warp-web.corp.dev-prod.warp.dev/auth/callback?code=XXXXX&state=XXXXX
+warp://auth/desktop_redirect?refresh_token=AMf-XXXXXX&is_onboarded=false&user_uid=XXXXXX&deleted_anonymous_user=false&state=XXXXXX
 ```
 
 ##### 步骤 3️⃣: 获取并保存令牌
@@ -235,22 +233,7 @@ https://warp-web.corp.dev-prod.warp.dev/auth/callback?code=XXXXX&state=XXXXX
 
 > **⚠️ 重要**: 大部分工具需要管理员权限
 
-#### 4.1 账户清理
-
-**功能**: 删除本地 Warp 用户配置文件
-
-**使用场景**:
-- 登录异常
-- 账户数据损坏
-- 重置账户状态
-
-**操作步骤**:
-1. 点击 **清理账户** 按钮
-2. 软件将自动关闭 Warp
-3. 删除 `dev.warp.Warp-User` 文件
-4. 重启 Warp 将显示登录页面
-
-#### 4.2 重置机器码
+#### 4.1 重置机器码
 
 **功能**: 修改注册表中的 ExperimentId（机器码）
 
@@ -267,7 +250,7 @@ https://warp-web.corp.dev-prod.warp.dev/auth/callback?code=XXXXX&state=XXXXX
 
 > **🔐 权限要求**: 必须以管理员身份运行
 
-#### 4.3 应用重置
+#### 4.2 应用重置
 
 **功能**: 完全清除 Warp 数据和注册表项
 
@@ -286,7 +269,7 @@ https://warp-web.corp.dev-prod.warp.dev/auth/callback?code=XXXXX&state=XXXXX
 
 > **⚠️ 严重警告**: 此操作将删除所有 Warp 数据，无法恢复！
 
-#### 4.4 进程管理
+#### 4.3 进程管理
 
 **自动功能**: 在执行操作前自动检测并关闭 Warp 进程
 
@@ -435,33 +418,7 @@ Default Rules:
    - 是否自动生成（可选）
 3. 点击 **保存** 添加
 
-##### 步骤 4️⃣: 配置 AI Profiles
-
-**预设配置文件**: Default Profile
-
-**权限设置**:
-- 📝 **应用代码差异**: 始终允许
-- 📄 **读取文件**: 始终允许
-- 📋 **创建计划**: 从不
-- ⚙️ **执行命令**: 始终允许
-- 🔌 **MCP 权限**: 始终允许
-
-**命令黑名单**:
-- `bash`, `fish`, `pwsh`, `sh`, `zsh`
-- `curl`, `rm`, `ssh`
-
-**模型选择**:
-- 基础模型: `claude-4-5-sonnet-thinking`
-- 编码模型: 无
-- 规划模型: `claude-4-5-sonnet-thinking`
-
-**自定义配置文件**:
-1. 点击 **➕ 添加配置文件** 按钮
-2. 配置详细的权限和模型设置
-3. 设置命令白名单/黑名单
-4. 保存配置
-
-##### 步骤 5️⃣: 执行同步
+##### 步骤 4⃣: 执行同步
 
 1. 确认所有配置无误
 2. 点击 **🚀 开始同步** 按钮
