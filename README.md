@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Version](https://img.shields.io/badge/版本-v1.5.10-blue.svg)
+![Version](https://img.shields.io/badge/版本-v1.6.2-blue.svg)
 ![Platform](https://img.shields.io/badge/平台-Windows%2010/11-green.svg)
 ![License](https://img.shields.io/badge/许可证-专有软件-red.svg)
 
@@ -736,3 +736,4 @@ Default Rules:
 © 2025 GacJie. All Rights Reserved.
 
 </div>
+
